@@ -1,0 +1,122 @@
+body {
+    color:rgba(0, 0, 0, 0.8);
+    margin: 0;
+}
+#container{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+/* Header */
+header{
+    height: 2vh;
+    font-family: "Liberation Sans"
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    padding: 0 20px 0 0;
+}
+li {
+    padding-left: 20px;
+    font-size: 12px;
+}
+#sus li{
+    color: black;
+}
+
+
+
+li a{
+    text-decoration:none;
+    color: inherit;
+}
+li a:hover{
+    text-decoration: underline;
+}
+
+/* Main */
+
+.main-elements{
+    padding-bottom:200px;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items:center;
+    box-sizing: border-box;
+    max-height:90vh;
+}
+
+.main-elements > * {
+    padding:10px;
+    font-family: "Liberation Sans"
+}
+
+.group-buttons {
+    margin-top: 20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.group-buttons > input{
+    margin: 5px;
+    border:none;
+    padding: 10px;
+}
+
+.group-buttons >input:focus {
+    outline:none;
+}
+
+.group-buttons >input:hover {
+    outline: 1px solid #222;
+}
+img{
+    max-width:100%;
+    max-height:auto;
+}
+input[type="text"]{
+    padding: 0.7em;
+    font: 10px arial, verdana, sans-serif;
+    border: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    box-shadow: 0 2px 2px 0rgba(0,0,0,0.08), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    min-width:500px;
+    height: 1.5em
+}
+input[type="text"]:hover{
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.08), 0 1px 1px 1px rgba(0, 0, 0, 0.08);
+}
+.language p{
+    font-size: 12px;
+}
+/* Footer */
+footer{
+    position: relative;
+    margin:0px;
+    height: 70px;
+    min-width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color:#F1F1F1;
+    font-family: "Liberation Sans"
+
+    
+}
+.left{
+    color: lightslategray !important;
+    font-size: 14px;
+}
+.right {
+    color: lightslategray !important;
+    font-size: 14px;
+
+}
